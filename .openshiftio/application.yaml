@@ -118,6 +118,7 @@ objects:
   kind: Service
   metadata:
     labels:
+      expose: "true"
       app: spring-boot-configmap
       provider: snowdrop
       version: ${RELEASE_VERSION}
